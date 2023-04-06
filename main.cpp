@@ -14,7 +14,7 @@ const char shape4 = 'O';
 
 int xwin {}, owin {};
 
-class Games {
+class Game {
 public:
     int currow_pos {strt_pos(ROWS)}, curcol_pos {strt_pos(ROWS)}; 
 public:
@@ -299,7 +299,7 @@ public:
 };
 
 int main() {
-    Games main;
+    Game main;
     char board[ROWS][COLS];
     main.fill_board(board, MAINCHAR);
 
