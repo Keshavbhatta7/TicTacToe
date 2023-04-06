@@ -98,18 +98,6 @@ public:
     }
 
     int move(char arry[ROWS][COLS], char move) {
-       /* switch (move) {
-            case 'x': arry[currow_pos][curcol_pos] = 'x';
-            break;
-
-            case 'o': arry[currow_pos][curcol_pos] = 'o';
-            break;
-
-            case 'q': return false;
-            break;
-
-            } */
-
         if (move == shape1 || move == shape3) {
             int x = isItFilled(arry);
             if (x) {
