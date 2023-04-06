@@ -16,7 +16,8 @@ int xwin {}, owin {};
 
 class Game {
 public:
-    int currow_pos {strt_pos(ROWS)}, curcol_pos {strt_pos(ROWS)}; 
+    // setting the value of currow_pos and curcol_pow to middle of the grid using strt_pos function
+    int currow_pos {strt_pos(ROWS)}, curcol_pos {strt_pos(ROWS)};
 public:
     bool render(char arry[ROWS][COLS]) {
         std::cout << std::endl;
