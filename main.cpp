@@ -33,10 +33,10 @@ public:
         return true;
     }
 
-    bool fill_board(char arry[ROWS][COLS], char ch) {
+    bool fill_board(char arry[ROWS][COLS]) {
         for (int i = 0; i < ROWS; i++) {
             for (int j = 0; j < COLS; j++) {
-                arry[i][j] = ch;
+                arry[i][j] = MAINCHAR;
             }
         }
 
@@ -302,7 +302,7 @@ public:
 int main() {
     Game main;
     char board[ROWS][COLS];
-    main.fill_board(board, MAINCHAR);
+    main.fill_board(board);
 
     bool quit = true;
 
