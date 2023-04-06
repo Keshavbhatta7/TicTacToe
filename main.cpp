@@ -304,11 +304,11 @@ int main() {
 
         main.render(board);
         move = main.takein(main.currow_pos, main.curcol_pos); // Take input from the user
-        if (main.isValidMove(valid_moves, move, arrlen)) {   // If the input is matches moves lsted in array valid_moves
-            quit = main.move(board, move);                  // Then check the move and perform a certain action according to it
+        if (main.isValidMove(valid_moves, move, arrlen)) {   // If input matches the moves listed in valid_moves array then
+            quit = main.move(board, move);                  // Check the move and perform a certain action according to it
         }
         else {
-            std::cout << "Invalid move!!" << std::endl;             // Else if the input given by user doesn't match valid moves
+            std::cout << "Invalid move!!" << std::endl;             // Else if the input isn't a valid move then
             main.render(board);                                     // Render the board
             move = main.takein(main.currow_pos, main.curcol_pos);   // and take input again
         }
