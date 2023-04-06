@@ -1,0 +1,17 @@
+Main Game (Completed)
+
+Step 1[V]. Start
+Step 2[V]. Make a function to render the board (render)
+Step 3[V]. Make a function to fill the board with some character (fill_board)
+Step 4[V]. Chose the board position from where the user will start giving inputs (strt_pos)
+Step 5[V]. Make a function to take input from the user (ins)
+Step 6[V]. Make a function to move around the board (moves)
+Step 7[V]. Make all the function required to check if x won or o won
+Step 8[V]. Place all those checking function in 1 place
+Step 9[V]. Create a function to check if the game is draw or not
+Step 10[V]. Create a main loop in main function
+Step 10[V]. End
+
+
+Additional Functionalities -- Will add soon
+

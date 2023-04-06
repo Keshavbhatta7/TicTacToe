@@ -1,2 +1,2 @@
 # TicTacToe
-First project that i made in c++
+First project that I made in c++
